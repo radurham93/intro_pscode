@@ -2,3 +2,27 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Set currentBox to x times 2
+set x to number of scans
+
+newBoxFunction
+Print "Box contains 0 items"
+Print "Please scan item"
+
+The customer scans item.
+x increases by 1
+
+scanFunction
+Print "Box contains" currentBox
+Print "Please scan item"
+
+repeat scanFunction until currentBox = 50
+
+fullFunction
+When currentBox = 50
+Print "Box is FULL"
+Print "Please start a NEW BOX"
+
+return to newBoxFunction
+

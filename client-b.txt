@@ -2,3 +2,24 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Create a map of the warehouse
+Set the startLocation to the customers starting coordinates (x,y)
+Set the targetLocation to the specific set location (x,y)
+
+printFunction
+Print "You are at" currentLocation (x,y)
+
+moveFunction for customer moving
+Print "Enter direction (north, south, east, west) to move"
+When customer moves north increase currentLocation y by 1
+when customer moves south decrease currentLocation y by 1
+When customer moves east increase currentLocation x by 1
+When customer moves west decrease currentLocation x by 1
+
+If currentLocation does not = targetLocation
+printFunction
+moveFunction
+
+If currentLocation = targetLocation
+Print "You have reached your destination"
+

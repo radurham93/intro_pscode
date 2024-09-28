@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Set a randomNumber variable with a range of 1-10
+Set an attempts variable to 3
+
+While attempts > 0 
+Print "Guess a number between 1 and 10"
+Read Guess
+
+If the guess = randomNumber
+Print "You guessed the correct number!" 
+
+If the guess does not = randomNumber
+Print "Incorrect. Guess again."
+Subtract 1 from attempts
+
+If attempts = 0 
+Print "Sorry, you have run out of guesses. The correct number was" randomNumber
